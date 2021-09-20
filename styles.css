@@ -1,0 +1,208 @@
+
+body {
+    font-family: Arial;
+}
+header {
+    position: relative;
+    z-index: 1001;
+    clear: right;
+    background-color: rgb(9, 90, 152);
+  
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+nav {
+    color: rgb(176, 175, 175);
+    font-size: 14px;
+}
+
+span {
+    color: white;
+}
+
+
+#account_wrapper {
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#logo {
+    width: 23px;
+    height: 23px;
+    padding-top: 5px;
+}
+
+#account {
+    line-height: 42px;
+    font-size: 13px;
+    color: #ddd;
+    padding: 0 18px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+#man_tabs {
+    color: white;
+    display: flex;
+}
+
+#app_tabs {
+    margin-left: 20px;
+}
+
+.js-header-text {
+   padding-top: 50px;
+}
+
+#account_right {
+    float: right;
+}
+
+h1 {
+    color: white;
+    font-size: 27px;
+    margin: 0 0 15px 18px;
+    line-height: 27px;
+    height: 27px;
+    white-space: nowrap;
+}
+
+
+footer {
+    height: 17px;
+    color: #6c6c6c;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    padding: 9px 32px;
+    background-color: rgb(244, 244, 244);
+    padding-bottom: 2000px;
+    border: thin;
+}
+
+
+#no_photo {
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.time {
+    color: rgb(77, 76, 76);
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.send_email {
+    margin-left: 48px;
+    font-size: 13px;
+    color: blue;
+    margin-top: 3px;
+}
+
+#last_online {
+    font-size: 12px;
+    color: rgb(77, 76, 76);
+    margin-top: 25px;
+    margin-left: 1300px;
+    float: right;
+}
+
+
+#pro_name {
+    font-size: 24px;
+    color: #555;
+    padding-top: 8px;
+ 
+}
+#controlbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: rgb(244, 244, 244);
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+#three_rows {
+    margin: 15px
+}
+#job_title {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+#cb_tabs {
+    font-size: 15px;
+    color: rgb(164, 162, 162);
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#post_bb {
+    background-color: #f0efef;
+    border-style: groove;
+}
+
+#sc_left {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+#form_guide {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #555;
+}
+
+#text_area {
+    background-color: white;
+    padding-right: 500px;
+    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-left: 3px;
+    margin-top: 10px;
+    border-style: groove;
+    font-size: 14px;
+    color: #555;
+}
+
+#no_post {
+    color: rgb(147, 112, 49);
+    font-size: 14px;
+    margin-top: 10px;
+    padding-bottom: 175px;
+}
+
+.singlecol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.f_but {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+#stats {
+    display: flex;
+    flex-direction: rows;
+    margin-left: 5px;
+}
+
+.s_word {
+    color: blue;
+    font-size: 15px;
+    padding-right: 20px;
+}
